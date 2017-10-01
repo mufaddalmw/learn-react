@@ -49,6 +49,16 @@ mix.react('./src/js/app.js', './js')
       filename:'comment.html',
       template: 'src/comment.html', // Load a custom template (ejs by default see the FAQ for details)
       // excludeAssets: [/app.js/] // exclude style.js or style.[chunkhash].js
+    }),
+    new HtmlWebpackPlugin({
+      filename:'jumbotron.html',
+      template: 'src/jumbotron.html', // Load a custom template (ejs by default see the FAQ for details)
+      // excludeAssets: [/app.js/] // exclude style.js or style.[chunkhash].js
+    }),
+    new HtmlWebpackPlugin({
+      filename:'inputval.html',
+      template: 'src/inputval.html', // Load a custom template (ejs by default see the FAQ for details)
+      // excludeAssets: [/app.js/] // exclude style.js or style.[chunkhash].js
     })
   ]
 
