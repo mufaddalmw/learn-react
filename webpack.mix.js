@@ -59,6 +59,11 @@ mix.react('./src/js/app.js', './js')
       filename:'inputval.html',
       template: 'src/inputval.html', // Load a custom template (ejs by default see the FAQ for details)
       // excludeAssets: [/app.js/] // exclude style.js or style.[chunkhash].js
+    }),
+    new HtmlWebpackPlugin({
+      filename:'individual-home.html',
+      template: 'src/individual-home.html', // Load a custom template (ejs by default see the FAQ for details)
+      // excludeAssets: [/app.js/] // exclude style.js or style.[chunkhash].js
     })
   ]
 
